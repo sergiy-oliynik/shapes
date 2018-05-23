@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shapes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+<div class="main-container">
+    <div class="row">
+        <div class="panel-down">
+            <input id="shapes-count" type="text" class="form-control input-number" value="Shapes: 0" disabled>
+            <input id="shapes-area" type="text" class="form-control input-number" value="Area: 0" disabled>
+        </div>
+    </div>
+
+    <div class="row">
+        <canvas id="game"></canvas>
+    </div>
+
+    <div class="row">
+        <div class="panel-down">
+            <!--Shapes per second-->
+            <button id="dec-shapes" type="button" class="btn btn-default btn-number">
+                <span class="glyphicon glyphicon-minus"></span>
+            </button>
+
+            <button id="inc-shapes" type="button" class="btn btn-default btn-number">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+
+            <input id="input-shapes" type="text" class="form-control input-number" value="Per sec: 1" disabled>
+
+            <!--Gravity-->
+            <button id="dec-gravity" type="button" class="btn btn-default btn-number">
+                <span class="glyphicon glyphicon-minus"></span>
+            </button>
+
+            <button id="inc-gravity" type="button" class="btn btn-default btn-number">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+
+            <input id="input-gravity" type="text" class="form-control input-number" value="Gravity: 1" disabled>
+        </div>
+    </div>
+</div>
+</body>
+</html>

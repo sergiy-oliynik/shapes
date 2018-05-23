@@ -1,0 +1,31 @@
+.main-container {
+    position: absolute;
+    text-align: center;
+
+    margin: auto;
+
+    width: 500px;
+    height: 534px;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.column {
+    display: inline-block;
+}
+
+.input-number{
+    margin: 0 15px;
+
+    width: max-content !important;
+    width: -moz-max-content !important;
+}
+
+.panel-down {
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
